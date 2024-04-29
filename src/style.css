@@ -1,0 +1,143 @@
+@import "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;1,600&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,300&display=swap";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  background-color: #d1ccb8;
+  color: #595551;
+}
+
+nav {
+  width: 100%;
+  max-width: 1600px;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3rem;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+svg {
+  height: 2rem;
+}
+
+.logo div {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+small {
+  font-size: smaller;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin: 0 1rem;
+  text-transform: uppercase;
+}
+
+.btn-buy {
+  padding: 0.7rem 1.5rem;
+  background-color: #02ffff;
+  border-radius: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #595551;
+  font-weight: 600;
+}
+
+section {
+  width: 100%;
+  height: calc(100vh - 6rem);
+  padding: 0 5rem;
+}
+
+.hero-section {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  width: 100%;
+}
+
+.hero-text {
+  width: 100%;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.hero-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: lighter;
+}
+
+p {
+  margin-bottom: 2rem;
+  text-wrap: balance;
+  color: #222;
+}
+
+.hero-button-info {
+  border: none;
+  border-radius: 2rem;
+  margin-right: 3rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  width: auto;
+  transition: color 0.3s ease-in;
+}
+
+.hero-button-buy {
+  background-color: #02ffff;
+  padding: 0.5rem 2rem;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  border: none;
+  border-radius: 2rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  width: auto;
+}
+
+.debug {
+  position: fixed;
+  bottom: 3rem;
+  left: 3rem;
+  font-weight: 700;
+}
